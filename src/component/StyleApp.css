@@ -1,0 +1,45 @@
+.page{
+    background-image: linear-gradient(pink,lightgreen,blue);
+    width: 100%;
+    height: 900px;
+}
+#text{
+    width: 230px;
+    height: 31px;
+    border: 2px solid red;
+    border-radius: 15px;
+    margin: 15px;
+}
+.value{
+    font-size: x-large;
+}
+.btn{
+    width: 230px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 15px;
+    margin: 15px;
+    font-size: x-large;
+    color: indigo;
+}
+.box{
+    width: 1276px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.innerbox{
+    width: 500px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
